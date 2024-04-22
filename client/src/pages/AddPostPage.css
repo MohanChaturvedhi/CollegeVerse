@@ -1,0 +1,38 @@
+/* AddPostPage.css */
+.add-post-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .add-post-page form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .add-post-page input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  .add-post-page img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .add-post-page textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    resize: none;
+  }
+  
+  .add-post-page button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
